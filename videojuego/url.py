@@ -1,5 +1,5 @@
 from django.urls import path
-from videojuegos.views import *
+from videojuego.views import *
 
 urlpatterns = [
     path('inicio/', cargar_inicio)
